@@ -2,7 +2,7 @@
 
 ## Install
 
-After installing nativefier, run `make install-mac` in this directory to build & install the app in `/Applications`.
+After installing `npm`, run `make install-mac` in this directory to build & install the app in `/Applications`.
 
 ## Protip
 
