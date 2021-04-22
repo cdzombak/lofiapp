@@ -7,3 +7,7 @@ After installing nativefier, run `make install-mac` in this directory to build &
 ## Protip
 
 On lofi.cafe, hit the `L` key to enable "low power mode". The site seems to remember this preference for you.
+
+## Screenshot
+
+![screenshot of the Lofi Cafe app playing lofi.cafe](./screenshot.png)
