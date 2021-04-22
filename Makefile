@@ -25,7 +25,8 @@ help:
 
 .PHONY: check-deps
 check-deps:  ## Verify build dependencies are installed
-	@command -v nativefier >/dev/null 2>&1 || echo "[!] Missing nativefier: npm install -g nativefier"
+	@command -v npm >/dev/null 2>&1 || echo "[!] Missing npm"
+	@npm install
 
 .PHONY: clean
 clean:  ## Clean build output directory
@@ -34,7 +35,7 @@ clean:  ## Clean build output directory
 .PHONY: build
 build: clean check-deps  ## Build app for the current platform
 	mkdir ./out
-	nativefier ${URL} ${BUILD_FLAGS} \
+	npm exec nativefier -- ${URL} ${BUILD_FLAGS} \
 		./out
 
 .PHONY: install-mac
