@@ -1,0 +1,17 @@
+{
+  "name": "lofiapp",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdzombak/lofiapp.git"
+  },
+  "author": "Chris Dzombak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdzombak/lofiapp/issues"
+  },
+  "homepage": "https://github.com/cdzombak/lofiapp#readme",
+  "dependencies": {
+    "nativefier": "github:cdzombak/nativefier#cdz/add-predefined-bookmarks-menu"
+  }
+}
