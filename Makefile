@@ -35,8 +35,7 @@ clean:  ## Clean build output directory
 .PHONY: build
 build: clean check-deps  ## Build app for the current platform
 	mkdir ./out
-	npm exec nativefier -- ${URL} ${BUILD_FLAGS} \
-		./out
+	npm exec nativefier -- ${URL} ${BUILD_FLAGS} ./out
 
 .PHONY: install-mac
 install-mac: build  ## Build & install to /Applications (for macOS)
