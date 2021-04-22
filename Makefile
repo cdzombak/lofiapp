@@ -11,7 +11,7 @@ define BUILD_FLAGS
 --height 500 \
 --app-version ${VERSION} \
 --bookmarks-menu bookmarks.json \
--i icon.png \
+-i icon.icns \
 --inject killchat.js \
 --fast-quit \
 --darwin-dark-mode-support
