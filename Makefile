@@ -37,6 +37,11 @@ build: clean check-deps  ## Build app for the current platform
 	mkdir ./out
 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} ./out
 
+.PHONY: _build-with-usr-local-nativefier
+_build-with-usr-local-nativefier: clean
+	mkdir ./out
+	/usr/local/bin/nativefier ${URL} ${BUILD_FLAGS} ./out
+
 .PHONY: install-mac
 install-mac: build  ## Build & install to /Applications (for macOS)
 	cp -R "./out/Lofi Cafe-darwin-x64/Lofi Cafe.app" /Applications || cp -R "./out/Lofi Cafe-darwin-arm64/Lofi Cafe.app" /Applications
