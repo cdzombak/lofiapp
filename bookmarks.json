@@ -20,22 +20,16 @@
             "shortcut": "Cmd+3"
         },
         {
-            "title": "lofi hip hop - STEEZYASFUCK",
+            "title": "lofi hip hop radio - STEEZYASFUCK",
             "url": "https://www.youtube.com/watch?v=rc9cjjEun_k",
             "type": "link",
             "shortcut": "Cmd+4"
         },
         {
-            "title": "Space Lofi Radio - lofi geek",
-            "url": "https://www.youtube.com/watch?v=6Q2pe0z2b7I",
-            "type": "link",
-            "shortcut": "Cmd+5"
-        },
-        {
             "title": "Endel × Smartbeats",
             "url": "https://play.endel.io/",
             "type": "link",
-            "shortcut": "Cmd+6"
+            "shortcut": "Cmd+5"
         },
         {
             "type": "separator"
@@ -43,12 +37,59 @@
         {
             "title": "RÜFÜS DU SOL Live from Joshua Tree",
             "type": "link",
-            "url": "https://www.youtube.com/watch?v=Zy4KtD98S2c"
+            "url": "https://www.youtube.com/watch?v=Zy4KtD98S2c",
+            "shortcut": "Cmd+Option+1"
         },
         {
             "title": "Lane 8 - Sunrise Set - Grand Lake, CO",
             "type": "link",
-            "url": "https://www.youtube.com/watch?v=n_LcVqqHSY8"
+            "url": "https://www.youtube.com/watch?v=n_LcVqqHSY8",
+            "shortcut": "Cmd+Option+2"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "title": "Lofi Hip Hop Beats Radio - lofi geek",
+            "url": "https://www.youtube.com/watch?v=9ipQdFrQ7_0",
+            "type": "link",
+            "shortcut": "Cmd+Shift+1"
+        },
+        {
+            "title": "Tokyo Lofi - lofi geek",
+            "url": "https://www.youtube.com/watch?v=cqEydD0wAuI",
+            "type": "link",
+            "shortcut": "Cmd+Shift+2"
+        },
+        {
+            "title": "Andromeda Space Live Stream - lofi geek",
+            "url": "https://www.youtube.com/watch?v=rbdKZLfxqaI",
+            "type": "link",
+            "shortcut": "Cmd+Shift+3"
+        },
+        {
+            "title": "Lofi Space Station - lofi geek",
+            "url": "https://www.youtube.com/watch?v=Q326lVMgsHk",
+            "type": "link",
+            "shortcut": "Cmd+Shift+4"
+        },
+        {
+            "title": "The Aesthetic Laundry - lofi geek",
+            "url": "https://www.youtube.com/watch?v=IRseJUSzWTo",
+            "type": "link",
+            "shortcut": "Cmd+Shift+5"
+        },
+        {
+            "title": "Space Lofi Radio - lofi geek",
+            "url": "https://www.youtube.com/watch?v=6Q2pe0z2b7I",
+            "type": "link",
+            "shortcut": "Cmd+Shift+6"
+        },
+        {
+            "title": "The Aesthetic Observatory - lofi geek",
+            "url": "https://www.youtube.com/watch?v=1DVxHUYU47w",
+            "type": "link",
+            "shortcut": "Cmd+Shift+7"
         }
     ]
 }
