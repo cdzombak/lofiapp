@@ -12,6 +12,6 @@
   },
   "homepage": "https://github.com/cdzombak/lofiapp#readme",
   "dependencies": {
-    "nativefier": "github:cdzombak/nativefier#cdz/add-predefined-bookmarks-menu"
+    "nativefier": "github:nativefier/nativefier#master"
   }
 }
