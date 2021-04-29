@@ -17,6 +17,8 @@ Failing to follow that last step will cause macOS to present a warning like this
 
 ![warning that the app isn't signed](warning.png)
 
+This warning, and the workaround, are because I'm not currently paying Apple $99/year for a developer account.
+
 ### Installing with developer tools (`make`, `npm`)
 
 1. Install `npm` on your system.
