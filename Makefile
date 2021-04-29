@@ -11,10 +11,10 @@ define BUILD_FLAGS
 --height 500 \
 --app-version ${VERSION} \
 --bookmarks-menu bookmarks.json \
--i icon.icns \
 --inject killchat.js \
 --fast-quit \
---darwin-dark-mode-support
+--darwin-dark-mode-support \
+-i icon.icns
 endef
 
 default: help
@@ -34,9 +34,20 @@ clean:  ## Clean build output directory
 
 .PHONY: build
 build: clean check-deps  ## Build app for the current platform
-	mkdir ./out
+	mkdir -p ./out
 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} ./out
 
+.PHONY: build-all
+build-all: clean check-deps  ## Build app for many supported platforms
+	mkdir -p ./out
+	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p mac -a x64 ./out
+	pushd "./out/Lofi Cafe-darwin-x64" &&  zip -r ../lofi-cafe-${VERSION}-macos-x64.zip "./Lofi Cafe.app" && popd
+	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p mac -a arm64 ./out
+	pushd "./out/Lofi Cafe-darwin-arm64" &&  zip -r ../lofi-cafe-${VERSION}-macos-arm.zip "./Lofi Cafe.app" && popd
+# 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p windows -a x64 ./out/windows-x64
+# 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p windows -a arm64 ./out/windows-arm
+
 .PHONY: install-mac
-install-mac: build  ## Build & install to /Applications (for macOS)
+install-mac: build  ## Build & install to /Applications (for macOS, x64 or arm)
 	cp -R "./out/Lofi Cafe-darwin-x64/Lofi Cafe.app" /Applications || cp -R "./out/Lofi Cafe-darwin-arm64/Lofi Cafe.app" /Applications
+	rm -rf ./out
