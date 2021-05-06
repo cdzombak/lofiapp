@@ -1,6 +1,6 @@
 SHELL:=/usr/bin/env bash
 
-VERSION=1.0.2
+VERSION=1.1.0
 URL="https://lofi.cafe/"
 define BUILD_FLAGS
 -n "Lofi Cafe" \
@@ -11,7 +11,7 @@ define BUILD_FLAGS
 --height 500 \
 --app-version ${VERSION} \
 --bookmarks-menu bookmarks.json \
---inject killchat.js \
+--inject userscript.js \
 --fast-quit \
 --darwin-dark-mode-support \
 -i icon.icns
