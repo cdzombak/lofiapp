@@ -48,13 +48,13 @@ build: clean check-deps update-deps  ## Build app for the current platform
 
 .PHONY: install-mac
 install-mac: build  ## Build & install to /Applications (on macOS, Intel or Apple Silicon)
-	cp -R "./out/${APPFILENAME}-darwin-x64/${APPFILENAME}.app" /Applications || cp -R "./out/${APPFILENAME}-darwin-arm64/${APPFILENAME}.app" /Applications
+	cp -R ./out/${APPFILENAME}-darwin-x64/${APPFILENAME}.app /Applications || cp -R ./out/${APPFILENAME}-darwin-arm64/${APPFILENAME}.app /Applications
 	rm -rf ./out
 
 .PHONY: build-all
 build-all: clean check-deps  ## Build app for supported platforms
 	mkdir -p ./out
 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p mac -a x64 ./out
-	pushd "./out/${APPFILENAME}-darwin-x64" &&  zip -r "../lofi-cafe-${VERSION}-macos-x64.zip" "./${APPFILENAME}.app" && popd
+	pushd ./out/${APPFILENAME}-darwin-x64 &&  zip -r ../${APPFILENAME}-${VERSION}-macos-x64.zip ./${APPFILENAME}.app && popd
 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p mac -a arm64 ./out
-	pushd "./out/${APPFILENAME}-darwin-arm64" &&  zip -r "../lofi-cafe-${VERSION}-macos-arm.zip" "./${APPFILENAME}.app" && popd
+	pushd ./out/${APPFILENAME}-darwin-arm64 &&  zip -r ../${APPFILENAME}-${VERSION}-macos-arm.zip ./${APPFILENAME}.app && popd
