@@ -6,7 +6,6 @@ darwin-*-template/
 # build products:
 out/
 
-
 # https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore
 
 # Logs
