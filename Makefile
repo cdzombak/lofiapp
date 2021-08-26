@@ -2,7 +2,7 @@
 
 SHELL:=/usr/bin/env bash
 
-VERSION=1.1.1
+VERSION=1.1.2
 URL="https://lofi.cafe/"
 define BUILD_FLAGS
 -n "Lofi Cafe" \
