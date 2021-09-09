@@ -2,10 +2,11 @@
 
 SHELL:=/usr/bin/env bash
 
-VERSION=1.1.2
+APPNAME="Lofi Cafe"
+VERSION=1.1.3
 URL="https://lofi.cafe/"
 define BUILD_FLAGS
--n "Lofi Cafe" \
+-n ${APPNAME} \
 --internal-urls ".*?" \
 --min-width 550 \
 --min-height 450 \
@@ -18,9 +19,6 @@ define BUILD_FLAGS
 --darwin-dark-mode-support \
 -i icon.icns
 endef
-
-# Also define name below; you may want its name on the filesystem to differ:
-APPFILENAME="Lofi Cafe"
 
 default: help
 # via https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
@@ -48,13 +46,13 @@ build: clean check-deps update-deps  ## Build app for the current platform
 
 .PHONY: install-mac
 install-mac: build  ## Build & install to /Applications (on macOS, Intel or Apple Silicon)
-	cp -R ./out/${APPFILENAME}-darwin-x64/${APPFILENAME}.app /Applications || cp -R ./out/${APPFILENAME}-darwin-arm64/${APPFILENAME}.app /Applications
+	cp -R ./out/${APPNAME}-darwin-x64/${APPNAME}.app /Applications || cp -R ./out/${APPNAME}-darwin-arm64/${APPNAME}.app /Applications
 	rm -rf ./out
 
 .PHONY: build-all
 build-all: clean check-deps  ## Build app for supported platforms
 	mkdir -p ./out
 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p mac -a x64 ./out
-	pushd ./out/${APPFILENAME}-darwin-x64 &&  zip -r ../${APPFILENAME}-${VERSION}-macos-x64.zip ./${APPFILENAME}.app && popd
+	pushd ./out/${APPNAME}-darwin-x64 &&  zip -r ../${APPNAME}-${VERSION}-macos-x64.zip ./${APPNAME}.app && popd
 	npm exec nativefier -- ${URL} ${BUILD_FLAGS} -p mac -a arm64 ./out
-	pushd ./out/${APPFILENAME}-darwin-arm64 &&  zip -r ../${APPFILENAME}-${VERSION}-macos-arm.zip ./${APPFILENAME}.app && popd
+	pushd ./out/${APPNAME}-darwin-arm64 &&  zip -r ../${APPNAME}-${VERSION}-macos-arm.zip ./${APPNAME}.app && popd

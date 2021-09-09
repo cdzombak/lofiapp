@@ -19,6 +19,6 @@ if (window.location.hostname === 'www.youtube.com' || window.location.hostname =
 if (window.location.hostname === 'www.lofi.cafe' || window.location.hostname === 'lofi.cafe') {
   if (window.localStorage.getItem('lowEnergyMode') === null) {
     window.localStorage.setItem('lowEnergyMode', 'true');
-    window.location.reload()
+    window.location.reload();
   }
 }
