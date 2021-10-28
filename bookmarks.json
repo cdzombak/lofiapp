@@ -45,6 +45,12 @@
             "type": "link",
             "url": "https://www.youtube.com/watch?v=n_LcVqqHSY8",
             "shortcut": "Cmd+Option+2"
+        },
+        {
+            "title": "Cosmic Relaxation",
+            "type": "link",
+            "url": "https://www.youtube.com/watch?v=Y_plhk1FUQA",
+            "shortcut": "Cmd+Option+3"
         }
     ]
 }
