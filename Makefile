@@ -3,7 +3,7 @@
 SHELL:=/usr/bin/env bash
 
 APPNAME="Lofi Cafe"
-VERSION=1.1.3
+VERSION=1.1.4
 URL="https://lofi.cafe/"
 define BUILD_FLAGS
 -n ${APPNAME} \

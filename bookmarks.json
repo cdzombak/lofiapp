@@ -47,10 +47,19 @@
             "shortcut": "Cmd+Option+2"
         },
         {
+            "type": "separator"
+        },
+        {
             "title": "Cosmic Relaxation",
             "type": "link",
             "url": "https://www.youtube.com/watch?v=Y_plhk1FUQA",
             "shortcut": "Cmd+Option+3"
+        },
+        {
+            "title": "Magnificent Mountains and Rivers",
+            "type": "link",
+            "url": "https://www.youtube.com/watch?v=DAlzlebbdPo",
+            "shortcut": "Cmd+Option+4"
         }
     ]
 }
