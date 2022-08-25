@@ -9,7 +9,7 @@
         },
         {
             "title": "beats to relax/study to - lofi girl",
-            "url": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+            "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
             "type": "link",
             "shortcut": "Cmd+2"
         },
@@ -21,7 +21,7 @@
         },
         {
             "title": "lofi hip hop radio - STEEZYAF",
-            "url": "https://www.youtube.com/watch?v=mu8j6-k4HIM",
+            "url": "https://www.youtube.com/watch?v=j4sJkuOPUP8",
             "type": "link",
             "shortcut": "Cmd+4"
         },
@@ -50,16 +50,25 @@
             "type": "separator"
         },
         {
-            "title": "Cosmic Relaxation",
+            "title": "Nature Relaxation",
             "type": "link",
-            "url": "https://www.youtube.com/watch?v=Y_plhk1FUQA",
+            "url": "https://www.youtube.com/c/dhuting",
             "shortcut": "Cmd+Option+3"
         },
         {
-            "title": "Magnificent Mountains and Rivers",
+            "title": "Primal Earth",
             "type": "link",
-            "url": "https://www.youtube.com/watch?v=DAlzlebbdPo",
+            "url": "https://www.youtube.com/channel/UCb57aRZr3KsykS_wNsD5Ptw/videos",
             "shortcut": "Cmd+Option+4"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "title": "Cosmic Relaxation",
+            "type": "link",
+            "url": "https://www.youtube.com/watch?v=Y_plhk1FUQA",
+            "shortcut": "Cmd+Option+5"
         }
     ]
 }
