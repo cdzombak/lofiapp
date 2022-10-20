@@ -17,7 +17,7 @@ Failing to follow that last step will cause macOS to present a warning like this
 
 ![warning that the app isn't signed](warning.png)
 
-This warning, and the workaround, are because I'm not currently paying Apple $99/year for a developer account.
+This warning, and the workaround, are because ~~I'm not currently paying Apple $99/year for a developer account~~ I'm paying Apple for a developer account but haven't yet figured out how to notarize this Electron app.
 
 ### Installing with developer tools (`make`, `npm`)
 
