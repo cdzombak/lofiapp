@@ -49,6 +49,11 @@ install-mac: build  ## Build & install to /Applications (on macOS, Intel or Appl
 	cp -R ./out/${APPNAME}-darwin-x64/${APPNAME}.app /Applications || cp -R ./out/${APPNAME}-darwin-arm64/${APPNAME}.app /Applications
 	rm -rf ./out
 
+.PHONY: install-mac-homedir
+install-mac-homedir: build  ## Build & install to ~/Applications (on macOS, Intel or Apple Silicon)
+	cp -R ./out/${APPNAME}-darwin-x64/${APPNAME}.app ~/Applications || cp -R ./out/${APPNAME}-darwin-arm64/${APPNAME}.app ~/Applications
+	rm -rf ./out
+
 .PHONY: build-all
 build-all: clean check-deps  ## Build app for supported platforms
 	mkdir -p ./out
