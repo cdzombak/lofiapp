@@ -12,6 +12,6 @@
   },
   "homepage": "https://github.com/cdzombak/lofiapp#readme",
   "dependencies": {
-    "nativefier": "github:nativefier/nativefier#master"
+    "nativefier": ">=50.0.1"
   }
 }
