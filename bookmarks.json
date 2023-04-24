@@ -14,14 +14,14 @@
             "shortcut": "Cmd+2"
         },
         {
-            "title": "coffee shop radio - STEEZYAF",
-            "url": "https://www.youtube.com/watch?v=-5KAN9_CzSA",
+            "title": "beats to sleep/chill to - lofi girl",
+            "url": "https://www.youtube.com/watch?v=rUxyKA_-grg",
             "type": "link",
             "shortcut": "Cmd+3"
         },
         {
-            "title": "lofi hip hop radio - STEEZYAF",
-            "url": "https://www.youtube.com/watch?v=j4sJkuOPUP8",
+            "title": "synthwave radio - lofi girl",
+            "url": "https://www.youtube.com/watch?v=MVPTGNGiI-4",
             "type": "link",
             "shortcut": "Cmd+4"
         },
@@ -30,6 +30,20 @@
             "url": "https://www.youtube.com/channel/UCyD59CI7beJDU493glZpxgA",
             "type": "link",
             "shortcut": "Cmd+5"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "title": "lofi ATC",
+            "url": "https://www.lofiatc.com/",
+            "type": "link",
+            "shortcut": "Cmd+6"
+        },
+        {
+            "title": "lofi ATC - DTW",
+            "url": "https://www.lofiatc.com/?icao=KDTW",
+            "type": "link"
         },
         {
             "type": "separator"
@@ -58,7 +72,7 @@
         {
             "title": "Primal Earth",
             "type": "link",
-            "url": "https://www.youtube.com/channel/UCb57aRZr3KsykS_wNsD5Ptw/videos",
+            "url": "https://www.youtube.com/@primalearth8951",
             "shortcut": "Cmd+Option+4"
         },
         {
