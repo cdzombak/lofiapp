@@ -3,7 +3,7 @@
 SHELL:=/usr/bin/env bash
 
 APPNAME="Lofi Cafe"
-VERSION=1.1.5
+VERSION:=$(shell [ -z "$$(git tag --points-at HEAD)" ] && echo "$$(git describe --always --long --dirty | sed 's/^v//')" || echo "$$(git tag --points-at HEAD | sed 's/^v//')")
 URL="https://lofi.cafe/"
 define BUILD_FLAGS
 -n ${APPNAME} \
