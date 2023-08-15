@@ -21,15 +21,29 @@
         },
         {
             "title": "synthwave radio - lofi girl",
-            "url": "https://www.youtube.com/watch?v=MVPTGNGiI-4",
+            "url": "https://www.youtube.com/watch?v=4xDzrJKXOOY",
             "type": "link",
             "shortcut": "Cmd+4"
         },
         {
+            "title": "lonelyboy",
+            "url": "https://www.youtube.com/@lonelyboyxyz",
+            "type": "link"
+        },
+        {
             "title": "lofi geek",
             "url": "https://www.youtube.com/channel/UCyD59CI7beJDU493glZpxgA",
-            "type": "link",
-            "shortcut": "Cmd+5"
+            "type": "link"
+        },
+        {
+            "title": "LOFI Galaxy",
+            "url": "https://www.youtube.com/channel/UCgyqgNSc6XMv1Nidr-jDJeg",
+            "type": "link"
+        },
+        {
+            "title": "Lucid Rhythms",
+            "url": "https://www.youtube.com/@LucidRhythms",
+            "type": "link"
         },
         {
             "type": "separator"
@@ -49,40 +63,37 @@
             "type": "separator"
         },
         {
-            "title": "RÜFÜS DU SOL Live from Joshua Tree",
-            "type": "link",
-            "url": "https://www.youtube.com/watch?v=Zy4KtD98S2c",
-            "shortcut": "Cmd+Option+1"
-        },
-        {
-            "title": "Lane 8 - Sunrise Set - Grand Lake, CO",
-            "type": "link",
-            "url": "https://www.youtube.com/watch?v=n_LcVqqHSY8",
-            "shortcut": "Cmd+Option+2"
-        },
-        {
-            "type": "separator"
-        },
-        {
             "title": "Nature Relaxation",
             "type": "link",
-            "url": "https://www.youtube.com/c/dhuting",
-            "shortcut": "Cmd+Option+3"
+            "url": "https://www.youtube.com/c/dhuting"
         },
         {
             "title": "Primal Earth",
             "type": "link",
-            "url": "https://www.youtube.com/@primalearth8951",
-            "shortcut": "Cmd+Option+4"
+            "url": "https://www.youtube.com/@primalearth8951"
+        },
+        {
+            "title": "Cosmic Relaxation",
+            "type": "link",
+            "url": "https://www.youtube.com/watch?v=Y_plhk1FUQA"
         },
         {
             "type": "separator"
         },
         {
-            "title": "Cosmic Relaxation",
+            "title": "RÜFÜS DU SOL Live from Joshua Tree",
             "type": "link",
-            "url": "https://www.youtube.com/watch?v=Y_plhk1FUQA",
-            "shortcut": "Cmd+Option+5"
+            "url": "https://www.youtube.com/watch?v=Zy4KtD98S2c"
+        },
+        {
+            "title": "Lane 8 - Sunrise Set - Grand Lake, CO",
+            "type": "link",
+            "url": "https://www.youtube.com/watch?v=n_LcVqqHSY8"
+        },
+        {
+            "title": "Ambient Polyrhythms // Mandala ASMR Sounds",
+            "url": "https://www.youtube.com/watch?v=Ns1QVFlmtII",
+            "type": "link"
         }
     ]
 }
