@@ -51,13 +51,13 @@
         {
             "title": "lofi ATC",
             "url": "https://www.lofiatc.com/",
-            "type": "link",
-            "shortcut": "Cmd+6"
+            "type": "link"
         },
         {
             "title": "lofi ATC - DTW",
             "url": "https://www.lofiatc.com/?icao=KDTW",
-            "type": "link"
+            "type": "link",
+            "shortcut": "Cmd+9"
         },
         {
             "type": "separator"
