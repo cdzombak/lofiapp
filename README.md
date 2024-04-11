@@ -1,5 +1,10 @@
 # Lofi Cafe (& Friends) Electron App
 
+> [!WARNING]
+> [The tool this app relied on, Nativefier, is no longer maintained.](https://github.com/nativefier/nativefier/issues/1577)
+>
+> This app is therefore no longer maintained and should not be used.
+
 ![screenshot of the Lofi Cafe app playing lofi.cafe](./screenshot.png)
 
 ## macOS
